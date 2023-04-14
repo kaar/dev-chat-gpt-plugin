@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Dev ChatGPT plugin",
+  "name_for_model": "dev_chat_gpt_plugin",
+  "description_for_human": "Plugin for extending you developer experience",
+  "description_for_model": "Plugin for extending you developer experience",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:8000/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:8000/logo.png",
+  "contact_email": "caspar.n@gmail.com",
+  "legal_info_url": "http://www.example.com/legal"
+}

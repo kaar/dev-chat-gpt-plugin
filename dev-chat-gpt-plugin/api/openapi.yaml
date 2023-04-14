@@ -1,0 +1,18 @@
+info:
+  description: A ChatGPT plugin for the Developer Chat
+  title: Developer Chat GPT Plugin
+  version: 1.0.0
+openapi: 3.0.2
+paths:
+  /nmap/list-hosts:
+    get:
+      operationId: list_hosts_nmap_list_hosts_get
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: List Hosts
+servers:
+- url: http://localhost:8000
