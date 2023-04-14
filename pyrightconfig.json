@@ -1,0 +1,7 @@
+{
+  "include": [],
+  "venvPath": ".",
+  "venv": ".venv",
+  "reportMissingImports": true,
+  "executionEnvironments": [],
+}
